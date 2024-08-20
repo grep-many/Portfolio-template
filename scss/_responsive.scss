@@ -64,3 +64,17 @@
         height: 50vh;
     }
 }
+
+@include media-notify {
+    .notification {
+        width: 90vw;
+        
+        &-container {
+            top: 0;
+            right: 0;
+            width: fit-content;
+            height: fit-content;
+            flex-direction: column;
+        }
+    }
+}

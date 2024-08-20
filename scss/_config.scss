@@ -40,3 +40,9 @@ ion-icon{
         @content;
     }
 }
+
+@mixin media-notify{
+    @media screen and (max-width:1300px) {
+        @content;
+    }
+}
